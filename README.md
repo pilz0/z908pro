@@ -1,9 +1,17 @@
 # z908pro
+
 ## What do we know about the Chip
-It is probably a Bouffalo Lab Chip
+
+It is probably a Bouffalo Lab Chip.
+
+The boot log contains a reference to the BLSP_Boot2, which is a bootloader for Bouffalo Lab Chips. We grepped the binary for some strings from the boot log and found some matches, so we are quite sure that the chip is a Bouffalo Lab Chip. Not sure which one though.
+
+After the bootloader log it switches to random binary garbage which is probably output of the firmware. Maybe it just changes the baudrate or something like that.
+
 ## About the Drone
 
 ## Bootloader Log
+
 ```
 system clock=000000A0BLSP_Boot2_CP:Dec 22 2021,19:38:18
 commit id=9f75399d1831379c92c2b0d58faee73a3af03277
@@ -33,4 +41,5 @@ Found One img Only
 00061000,0000000f
 CPU Count 2,0
 Counter value=15810757
+     +++++ RANDOM BINARY GARBAGE +++++
 ```
