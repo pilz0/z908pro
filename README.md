@@ -1,4 +1,8 @@
 # z908pro
+## What do we know about the Chip
+It is probably a Bouffalo Lab Chip
+## About the Drone
+
 ## Bootloader Log
 ```
 system clock=000000A0BLSP_Boot2_CP:Dec 22 2021,19:38:18
