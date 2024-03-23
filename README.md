@@ -9,7 +9,7 @@ The boot log contains a reference to the BLSP_Boot2, which is a bootloader for B
 After the bootloader log it switches to random binary garbage which is probably output of the firmware. Maybe it just changes the baudrate or something like that.
 
 ## About the Drone
-
+Aliexpress Link: https://github.com/pilz0/z908pro
 ## Bootloader Log
 
 ```
