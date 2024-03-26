@@ -8,9 +8,11 @@ The boot log contains a reference to the BLSP_Boot2, which is a bootloader for B
 
 After the bootloader log it switches to random binary garbage which is probably output of the firmware. Maybe it just changes the baudrate or something like that.
 ## The rest of Chips
-### Motorcontroller
-Its a Mixic MX116H 
-
+### Motorcontrollers
+For the motor of the Cam there is a Mixic MX116H motorcontroller
+## Battery
+The Battery is a 2000 mah 3,7 Volt LiPo
+The Chip on the Battery Controller says "LC 9" and has some resistors and Capasitors around it. It is connected to the USB Port.
 ## About the Drone
 Aliexpress Link: https://de.aliexpress.com/w/wholesale-z908pro.html
 ## Bootloader Log
