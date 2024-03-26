@@ -1,12 +1,15 @@
 # z908pro
 
-## What do we know about the Chip
+## What do we know about the Wifi Cam Chip
 
 It is probably a Bouffalo Lab Chip.
 
 The boot log contains a reference to the BLSP_Boot2, which is a bootloader for Bouffalo Lab Chips. We grepped the binary for some strings from the boot log and found some matches, so we are quite sure that the chip is a Bouffalo Lab Chip. Not sure which one though.
 
 After the bootloader log it switches to random binary garbage which is probably output of the firmware. Maybe it just changes the baudrate or something like that.
+## The rest of Chips
+### Motorcontroller
+Its a Mixic MX116H 
 
 ## About the Drone
 Aliexpress Link: https://de.aliexpress.com/w/wholesale-z908pro.html
